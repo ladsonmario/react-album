@@ -1,13 +1,18 @@
 import * as C from './App.styles';
+import CamImg from './images/cam.png';
+import { MainRoutes } from './routes/MainRoutes';
 
 function App() {
   return (
     <C.Container>
       <C.Header>
-        <C.LogoText>Galeria de Fotos</C.LogoText>
-        <C.LogoImg></C.LogoImg>
+        <C.LogoText>Galeria de Fotos</C.LogoText>        
+        <C.LogoImg src={CamImg} alt="" />
       </C.Header>
-      <hr/>
+      <C.Line />
+      
+      <MainRoutes />
+
     </C.Container>    
   )
 }
