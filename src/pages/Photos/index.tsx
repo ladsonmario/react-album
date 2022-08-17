@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { API } from '../../api';
 import { PhotosType } from '../../types/types';
-import { Loading } from "../Loading";
-import { Button } from '../Button';
+import { Loading } from '../../components/Loading';
+import { Button } from '../../components/Button';
 import LoadingImg from '../../images/loading.gif';
 import * as C from './styles';
 

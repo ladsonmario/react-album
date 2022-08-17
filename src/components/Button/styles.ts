@@ -10,6 +10,7 @@ export const Button = styled.button`
     border: 0;
     border-radius: 10px;
     transition: all ease .3s;
+    cursor: pointer;
 
     &:hover {
         opacity: .9;

@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AlbumsType } from "../../types/types";
 import { API } from "../../api";
-import { Loading } from "../Loading";
+import { Loading } from '../../components/Loading';
 import * as C from './styles';
 import LoadingImg from '../../images/loading.gif';
 
-export const Albums = () => {
+export const Home = () => {
     const [albums, setAlbums] = useState<AlbumsType[]>([]);  
     const [loading, setLoading] = useState<boolean>(false);
 
