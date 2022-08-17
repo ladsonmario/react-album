@@ -7,7 +7,7 @@ export const Container = styled.div`
     padding: 10px;
 `;
 
-export const Header = styled.div`
+export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,4 +28,14 @@ export const LogoImg = styled.img`
     margin: 0 5px;          
 `;
 
-export const Line = styled.hr``;
+export const Line = styled.hr`
+    color: #fff;
+    margin: 20px 0;
+`;
+
+export const Footer = styled.footer`
+    text-align: center;
+    margin-top: 20px;    
+`;
+
+export const Link = styled.a``;

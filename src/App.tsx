@@ -9,10 +9,17 @@ function App() {
         <C.LogoText>Galeria de Fotos</C.LogoText>        
         <C.LogoImg src={CamImg} alt="" />
       </C.Header>
+      
       <C.Line />
       
       <MainRoutes />
 
+      <C.Line />
+
+      <C.Footer>
+        © Copyright - 
+        <C.Link href="https://github.com/ladsonmario" target="_blank"> Ladson</C.Link>
+      </C.Footer>
     </C.Container>    
   )
 }
